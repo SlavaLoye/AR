@@ -43,6 +43,8 @@ class ViewController: UIViewController {
         
     }
     
+    //  MARK: Developer
+    
     func setupGesture()  {
         let tapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(placeBox))
         tapGestureRecognizer.numberOfTapsRequired = 1
